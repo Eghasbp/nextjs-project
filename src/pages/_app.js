@@ -59,6 +59,7 @@ export default function App({ Component, pageProps }) {
           content="https://metatags.io/images/meta-tags.png"
         />
       </Head>
+      <style jsx global>
       {
       `
       :root{
@@ -67,6 +68,7 @@ export default function App({ Component, pageProps }) {
         --font-mono: ${ubuntu_m.style.fontFamily}
       }
       `}
+      </style>
       <Component {...pageProps} />
     </>
   );
