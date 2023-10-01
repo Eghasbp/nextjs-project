@@ -3,7 +3,7 @@ import React from 'react'
 const Time = ({data}) => {
   return (
     <div>
-        <p className='text-base font-sans text-black'>{data.id}{data.todo}</p>
+        <p className='text-base font-sans text-black'>{data.todo}</p>
     </div>
   )
 }
